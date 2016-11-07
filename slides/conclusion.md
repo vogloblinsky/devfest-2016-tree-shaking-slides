@@ -51,4 +51,4 @@ The missing documentation tool for your Angular 2 application
 
 ## Encore des questions ?<!-- .element: class="fragment" -->
 
-WWW slides<!-- .element: class="fragment" -->
+[bit.ly/devfest-16-tree-shaking](http://bit.ly/devfest-16-tree-shaking)<!-- .element: class="fragment" -->
