@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1000px"
+	 height="610px" viewBox="0 0 1000 610" enable-background="new 0 0 1000 610" xml:space="preserve">
+<g id="modules">
+	<circle fill="#E6E6E6" stroke="#7F8C8D" stroke-miterlimit="10" cx="536.821" cy="97.712" r="49.679"/>
+	<circle fill="#E6E6E6" stroke="#7F8C8D" stroke-miterlimit="10" cx="452.679" cy="250.569" r="49.679"/>
+	<circle fill="#E6E6E6" stroke="#7F8C8D" stroke-miterlimit="10" cx="634.986" cy="250.569" r="49.679"/>
+	<circle fill="#E6E6E6" stroke="#7F8C8D" stroke-miterlimit="10" cx="368.538" cy="402.023" r="49.679"/>
+	<circle fill="#E6E6E6" stroke="#7F8C8D" stroke-miterlimit="10" cx="275.982" cy="552.074" r="49.68"/>
+	<circle fill="#E6E6E6" stroke="#7F8C8D" stroke-miterlimit="10" cx="710.713" cy="402.023" r="49.68"/>
+	<circle fill="#E6E6E6" stroke="#7F8C8D" stroke-miterlimit="10" cx="800.91" cy="553.583" r="49.68"/>
+	<circle fill="#E6E6E6" stroke="#7F8C8D" stroke-miterlimit="10" cx="638.003" cy="552.074" r="49.679"/>
+	<circle fill="#E6E6E6" stroke="#7F8C8D" stroke-miterlimit="10" cx="455.484" cy="552.074" r="49.679"/>
+	<g>
+		<g>
+			
+				<line fill="none" stroke="#F2F2F2" stroke-width="2" stroke-miterlimit="10" x1="517.859" y1="143.635" x2="483.097" y2="194.342"/>
+			<g>
+				<polygon fill="#F2F2F2" points="476.521,186.296 474.981,206.179 492.971,197.574 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			
+				<line fill="none" stroke="#F2F2F2" stroke-width="2" stroke-miterlimit="10" x1="429.191" y1="293.581" x2="394.429" y2="344.29"/>
+			<g>
+				<polygon fill="#F2F2F2" points="387.854,336.244 386.313,356.126 404.304,347.521 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			
+				<line fill="none" stroke="#F2F2F2" stroke-width="2" stroke-miterlimit="10" x1="343.239" y1="444.775" x2="308.245" y2="497.652"/>
+			<g>
+				<polygon fill="#F2F2F2" points="301.539,489.715 300.324,509.619 318.171,500.722 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			
+				<line fill="none" stroke="#F2F2F2" stroke-width="2" stroke-miterlimit="10" x1="395.366" y1="443.266" x2="428.968" y2="494.04"/>
+			<g>
+				<polygon fill="#F2F2F2" points="419.041,497.11 436.887,506.009 435.673,486.104 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			
+				<line fill="none" stroke="#F2F2F2" stroke-width="2" stroke-miterlimit="10" x1="560.333" y1="143.635" x2="603.473" y2="195.174"/>
+			<g>
+				<polygon fill="#F2F2F2" points="593.953,199.337 612.684,206.18 609.246,186.536 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			
+				<line fill="none" stroke="#F2F2F2" stroke-width="2" stroke-miterlimit="10" x1="688.703" y1="446.284" x2="661.349" y2="491.616"/>
+			<g>
+				<polygon fill="#F2F2F2" points="654.317,483.966 653.933,503.903 671.394,494.271 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			
+				<line fill="none" stroke="#F2F2F2" stroke-width="2" stroke-miterlimit="10" x1="738.414" y1="443.266" x2="774.251" y2="495.671"/>
+			<g>
+				<polygon fill="#F2F2F2" points="764.372,498.892 782.352,507.519 780.835,487.634 				"/>
+			</g>
+		</g>
+	</g>
+	<text transform="matrix(1 0 0 1 604.9863 97.7139)" fill="#F2F2F2" font-family="'OpenSans-Bold'" font-size="18.103">if A</text>
+	<text transform="matrix(1 0 0 1 706.2559 250.5708)" fill="#F2F2F2" font-family="'OpenSans-Bold'" font-size="18.103">else if B</text>
+	<text transform="matrix(1 0 0 1 780.9102 390.1143)" fill="#F2F2F2" font-family="'OpenSans-Bold'" font-size="18.103">else if C</text>
+	<g>
+		<g>
+			<line fill="none" stroke="#F2F2F2" stroke-width="2" stroke-miterlimit="10" x1="833" y1="56" x2="872" y2="56"/>
+			<g>
+				<polygon fill="#F2F2F2" points="869,65.533 886.27,55.562 869,45.589 				"/>
+			</g>
+		</g>
+	</g>
+	<text transform="matrix(1 0 0 1 816.6523 88.6626)" fill="#F2F2F2" font-family="'OpenSans-Bold'" font-size="18.103">condition</text>
+	<text transform="matrix(1 0 0 1 868.9102 520.1143)" fill="#F2F2F2" font-family="'OpenSans-Bold'" font-size="18.103">else if D</text>
+</g>
+<g id="out">
+	<circle fill="#FF931E" stroke="#7F8C8D" stroke-miterlimit="10" cx="710.713" cy="402.023" r="49.68"/>
+	<circle fill="#FF931E" stroke="#7F8C8D" stroke-miterlimit="10" cx="800.91" cy="553.583" r="49.68"/>
+	<circle fill="#FF931E" stroke="#7F8C8D" stroke-miterlimit="10" cx="638.003" cy="552.074" r="49.679"/>
+	<g>
+		<g>
+			
+				<line fill="none" stroke="#4D4D4D" stroke-width="2" stroke-miterlimit="10" x1="688.703" y1="446.284" x2="661.349" y2="491.616"/>
+			<g>
+				<polygon fill="#4D4D4D" points="654.317,483.966 653.933,503.903 671.394,494.271 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			
+				<line fill="none" stroke="#4D4D4D" stroke-width="2" stroke-miterlimit="10" x1="738.414" y1="443.266" x2="774.251" y2="495.671"/>
+			<g>
+				<polygon fill="#4D4D4D" points="764.372,498.892 782.352,507.519 780.835,487.634 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

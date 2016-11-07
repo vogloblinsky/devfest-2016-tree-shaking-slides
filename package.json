@@ -1,0 +1,20 @@
+{
+  "name": "scaffolder-revealjs-sii",
+  "version": "0.0.1",
+  "description": "scaffolder-revealjs-sii",
+  "scripts": {
+    "start": "http-server ./ -p 8383 -s",
+    "release": "node npm_scripts/release"
+  },
+  "engines": {
+    "node": "~4.1.1"
+  },
+  "dependencies": {
+    "http-server": "^0.9.0",
+    "scaffolder-revealjs-resources": "git://github.com/groupe-sii/scaffolder-revealjs-resources.git"
+  },
+  "devDependencies": {
+    "fs-extra": "^0.30.0",
+    "replace": "^0.3.0"
+  }
+}
