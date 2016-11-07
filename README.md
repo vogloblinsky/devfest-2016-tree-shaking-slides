@@ -1,6 +1,10 @@
 # devfest-2016-tree-shaking-slides
 Slides d'un talk sur le Tree-shaking présenté durant le Devfest Nantes 2016
 
+## Démos
+
+[LIEN](https://github.com/vogloblinsky/devfest-2016-tree-shaking-demos)
+
 ## Présentation
 
 La formation utilise le framework de présentation web [reveal.js](http://lab.hakim.se/reveal-js/).

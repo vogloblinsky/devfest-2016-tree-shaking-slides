@@ -11,6 +11,8 @@ délai de 1s ~= 2,5 M€ perte sur l'année
 
 source: [How Loading Time Affects Your Bottom Line](https://blog.kissmetrics.com/loading-time/)
 
+note:
+2,3Mo / Doom en 1993
 
 @@@
 <!-- .slide: data-background-image="img/web-app-gap.png" data-background-size="contain" data-background-color="#fff"-->
