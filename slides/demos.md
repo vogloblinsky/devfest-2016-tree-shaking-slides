@@ -5,10 +5,9 @@
 
 @@@
 
-Sans tree-shaking
+##Bilan avec une librairie full ES6
 
-Poids final : 490 kb
-
-Avec tree-shaking
-
-Poids final : 54 kb
+| Sans tree-shaking (min) | Avec tree-shaking (min) |
+|:---------:|:---------:|
+| rollup.js : 60 kb | rollup.js : 9 kb |
+| webpack 2 : 262 kb | webpack 2 : 27 kb |
