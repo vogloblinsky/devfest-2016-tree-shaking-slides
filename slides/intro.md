@@ -15,6 +15,7 @@ Architecte logiciel - <img src="img/SII_logo_small.png" width="50px" style="marg
 <span class="symbol">circletwitterbird</span> <span class="symbol">circlegithubalt</span> | __vogloblinsky__
 
 @@@
+<!-- .slide: class="toc"-->
 ##Plan
 
 [1. "Tree-shaking" versus "Dead code elimination"](#/3)
