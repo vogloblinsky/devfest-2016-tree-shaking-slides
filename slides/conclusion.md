@@ -22,11 +22,15 @@
 @@@
 ### Ressources 2/3 | Webpack 2
 
-[webpack.js.org](https://webpack.js.org/)
+[https://webpack.js.org](https://webpack.js.org/)
 
 [How To Clean Up Your JavaScript Build With Tree Shaking](https://blog.engineyard.com/2016/tree-shaking)
 
 [Tree-shaking with webpack 2 and Babel 6](http://www.2ality.com/2015/12/webpack-tree-shaking.html)
+
+[Optimize your Angular 2 Application with Tree Shaking](http://blog.rangle.io/optimize-your-angular2-application-with-tree-shaking/)
+
+[Webpack 2 Tree Shaking Configuration](https://medium.com/modus-create-front-end-development/webpack-2-tree-shaking-configuration-9f1de90f3233#.73b9hfmab)
 
 @@@
 ### Ressources 3/3 | Générales

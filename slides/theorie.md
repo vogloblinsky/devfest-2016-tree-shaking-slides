@@ -13,7 +13,7 @@ source: [How Loading Time Affects Your Bottom Line](https://blog.kissmetrics.com
 
 note:
 2,3Mo / Doom en 1993
-
+amazon : 100ms de latence, 1% de CA perdu
 @@@
 <!-- .slide: data-background-image="img/web-app-gap.png" data-background-size="contain" data-background-color="#fff"-->
 
@@ -91,10 +91,14 @@ graphe de dépendance nécessaire
 
 &#8594; il "descend" le code<!-- .element: class="fragment" -->
 
+note:
+
+traces sur le web dès 2013 avec dart2js
+
 @@@
 - analyse les modules ES6 "non-utilisés"
 
-<div style="margin-bottom: 40px;"></div>
+<div style="margin-bottom: 90px;"></div>
 
 <div data-svg-fragment="img/tree-shaking-modules.svg">
   <a class="fragment" title="[*|id=out]"></a>
@@ -103,7 +107,7 @@ graphe de dépendance nécessaire
 @@@
 - analyse les exports ES6 "non-utilisés"
 
-<div style="margin-bottom: 40px;"></div>
+<div style="margin-bottom: 90px;"></div>
 
 <div data-svg-fragment="img/tree-shaking-exports.svg">
   <a class="fragment" title="[*|id=out]"></a>
