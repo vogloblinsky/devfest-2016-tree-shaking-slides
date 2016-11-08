@@ -1,6 +1,6 @@
 ##Conclusion
 
-* webpack : mature<!-- .element: class="fragment" -->
+* webpack : mature, moins sur le poids (ça va s'améliorer)<!-- .element: class="fragment" -->
 * rollup.js : au rendez-vous sur la taille de sortie et le temps d'exécution<!-- .element: class="fragment" -->
 * suivant les outils, les stratégies ne sont pas les mêmes (les résultats aussi...)<!-- .element: class="fragment" -->
 * ce n'est qu'une étape (parmi tant d'autres...)<!-- .element: class="fragment" -->
@@ -49,6 +49,6 @@ The missing documentation tool for your Angular 2 application
 <!-- .slide: data-background-video="img/truman.mp4" data-background-video-loop="true" class="light-overlay background-video"-->
 ## Merci
 
-## Encore des questions ?<!-- .element: class="fragment" -->
+## Des questions ?<!-- .element: class="fragment" -->
 
 [bit.ly/devfest-16-tree-shaking](http://bit.ly/devfest-16-tree-shaking)<!-- .element: class="fragment" -->
