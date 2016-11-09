@@ -30,9 +30,10 @@ amazon : 100ms de latence, 1% de CA perdu
 [Angular Universal talk by Wassim Chegham](http://slides.com/wassimchegham/angular2-universal#/8)
 
 @@@
-##Pour réduire votre "budget"
+##Pour réduire ce "délai"
 
 - faites un rendu côté serveur (server side rendering)
+- lazy loading
 - diminuer le poids de vos assets
 
 @@@
@@ -87,9 +88,11 @@ Code non atteignable<!-- .element: class="fragment" data-code-focus="7-8" -->
 
 on prend seulement ce qu’on a besoin, le code vivant
 
-graphe de dépendance nécessaire
-
 &#8594; il "descend" le code<!-- .element: class="fragment" -->
+
+graphe de dépendance nécessaire<!-- .element: class="fragment" -->
+
+&#8594; "modules" ES6<!-- .element: class="fragment" -->
 
 note:
 
@@ -114,18 +117,8 @@ traces sur le web dès 2013 avec dart2js
 </div>
 
 @@@
-<!-- .slide: data-background-image="img/cooking.jpg"-->
-##Un petit gâteau ?
 
-- on mélange tout les ingrédients<!-- .element: class="fragment" -->
-- on cuit au four<!-- .element: class="fragment" -->
-- ensuite, on enlève les coquilles d'oeuf<!-- .element: class="fragment" -->
-
-&#8594; moins de gâteau à manger<!-- .element: class="fragment" -->
-
-@@@
-
-##ça revient pas au même ?
+##et alors, ça revient pas au même ?
 
 non, l’inclusion de "code vivant" est logiquement meilleure<!-- .element: class="fragment" -->
 
@@ -140,7 +133,7 @@ en partant de rien et en ajoutant, bien plus simple que l'inverse.
 
 - ne fonctionne qu'avec des modules ES6 -> structure statique<!-- .element: class="fragment" -->
 - ça peut coincer -> analyse de code statique sur un langage "dynamique" ...<!-- .element: class="fragment" -->
-    - si changement d'état global par une lib X, tree-shaking se désactive
+    - si changement d'état global par une lib X, le tree-shaking se désactive
 
 note:
 - faux positif style lodash
