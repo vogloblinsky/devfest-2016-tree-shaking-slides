@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Devfest 2016 - Quickie Tree-shaking</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/sii.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="css/atom-one-light.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" rel="stylesheet">
+
+		<style>
+			body, blockquote {
+				background: #1f8dd6;
+				font-family: 'Open Sans', sans-serif;
+			}
+            blockquote {
+                font-family: 'Open Sans', sans-serif !important;
+            }
+            .reveal {
+                color: white;
+            }
+            .reveal code {
+                color: #1745ff;
+            }
+			.reveal h1,
+			.reveal h2,
+			.reveal h3,
+			.reveal h4,
+			.reveal h5,
+			.reveal h6 {
+			  color: white;
+			  text-transform: none;
+			  font-family: 'Open Sans', sans-serif;
+		  	}
+			.reveal a {
+				color: #ffc217;
+			}
+
+            h1, h2, h2.name  {
+                color: #ffc217 !important;
+            }
+
+            hr {
+                margin:  50px 0;
+            }
+
+            .reveal blockquote {
+                background: none;
+                box-shadow: none;
+            }
+
+			@font-face {
+			  	font-family: 'Mono Social Icons Font';
+			    src: url('http://drinchev.github.io/monosocialiconsfont/fonts/MonoSocialIconsFont-1.10.eot');
+			    src: url('http://drinchev.github.io/monosocialiconsfont/fonts/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
+			         url('http://drinchev.github.io/monosocialiconsfont/fonts/MonoSocialIconsFont-1.10.woff') format('woff'),
+			         url('http://drinchev.github.io/monosocialiconsfont/fonts/MonoSocialIconsFont-1.10.ttf') format('truetype'),
+			         url('http://drinchev.github.io/monosocialiconsfont/fonts/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
+			    src: url('http://drinchev.github.io/monosocialiconsfont/fonts/MonoSocialIconsFont-1.10.ttf') format('truetype');
+			    font-weight: normal;
+			    font-style: normal;
+			}
+
+			.symbol, a.symbol:before {
+			    font-family: 'Mono Social Icons Font' !important;
+			    -webkit-text-rendering: optimizeLegibility;
+			    -moz-text-rendering: optimizeLegibility;
+			    -ms-text-rendering: optimizeLegibility;
+			    -o-text-rendering: optimizeLegibility;
+			    text-rendering: optimizeLegibility;
+			    -webkit-font-smoothing: antialiased;
+			    -moz-font-smoothing: antialiased;
+			    -ms-font-smoothing: antialiased;
+			    -o-font-smoothing: antialiased;
+			    font-smoothing: antialiased;
+			}
+
+			a.symbol:before {
+			    content: attr(title);
+			    margin-right: 0.3em;
+			    font-size: 130%;
+			}
+
+			a.symbol {
+			    background: #9f9f9f;
+			    padding: 7px 5px 3px 5px;
+			    color: white;
+			    text-decoration: none;
+			}
+
+            footer.legend {
+                position: absolute;
+                left: 10px;
+                top: 10px;
+                color: white;
+                width: 100%;
+                text-align: center;
+                font-size: 14px;
+                display: none;
+            }
+			.devfest-logo {
+				position: absolute;
+                left: 15px;
+                bottom: 15px;
+				display: none;
+				color: white;
+				display: flex;
+				align-items: center;
+				align-content: center;
+			}
+			.devfest-logo img {
+				width: 250px;
+				margin-right: 10px;
+			}
+            .background-video video {
+                object-fit: cover;
+            }
+            .backgrounds .light-overlay::after {
+                background: rgba(0, 0, 0, 0.3);
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                content: '';
+            }
+            .backgrounds .dark-overlay::after {
+                background: rgba(0, 0, 0, 0.6);
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                content: '';
+            }
+            .backgrounds .darker-overlay::after {
+                background: rgba(0, 0, 0, 0.75);
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                content: '';
+            }
+            .conclusion table {
+                font-size: 22px;
+            }
+            .toc {
+                text-align: left;
+            }
+		</style>
+
+		<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<div class="reveal">
+
+    		<!-- Any section element inside of this container is displayed as a slide -->
+    		<div class="slides">
+    			<section data-markdown="slides/intro.md" data-separator="^@@@$" data-separator-vertical="^@@$" class="intro"></section>
+    			<section data-markdown="slides/theorie.md" data-separator="^@@@$" data-separator-vertical="^@@$" class="theorie"></section>
+    			<section data-markdown="slides/demos.md" data-separator="^@@@$" data-separator-vertical="^@@$" class="demos"></section>
+    			<section data-markdown="slides/conclusion.md" data-separator="^@@@$" data-separator-vertical="^@@$" class="conclusion"></section>
+    		</div>
+
+	   </div>
+
+       <footer class="legend">
+           Tree-shaking - Déployer encore moins de code en production • Vincent Ogloblinsky • Devfest 2016
+       </footer>
+
+	   <div class="devfest-logo">
+           <img src="img/logo-devfest.png"/><span>Tree-shaking - Déployer encore moins de code en production • Vincent Ogloblinsky</span>
+       </div>
+
+	<script src="js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+    <script src="plugin/reveal-svg-fragment/d3.min.js"></script>
+
+	<script>
+		var RESOURCES_PATH = '';
+
+		// Full list of configuration options available at:
+		// https://github.com/hakimel/reveal.js#configuration
+		Reveal.initialize({
+			controls: true,
+			progress: true,
+			history: true,
+			slideNumber: true,
+
+			transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+			// Optional reveal.js plugins
+			dependencies: [
+				// Cross-browser shim that fully implements classList - https://github.com/eligrey/classList.js/
+				{ src: RESOURCES_PATH + 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+				// Interpret Markdown in <section> elements
+				{ src: RESOURCES_PATH + 'plugin/markdown/marked.js' },
+				{ src: RESOURCES_PATH + 'plugin/markdown/markdown.js' },
+				// Speaker notes
+				{ src: RESOURCES_PATH + 'plugin/notes/notes.js', async: true },
+				// Zoom in and out with Alt+click
+				{ src: RESOURCES_PATH + 'plugin/zoom-js/zoom.js', async: true },
+				// Syntax highlighting for the Web
+				{ src: RESOURCES_PATH + 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+				// Code focusing
+				{ src: RESOURCES_PATH + 'plugin/reveal-code-focus/reveal-code-focus.js', async: true, callback: function() { RevealCodeFocus({blurOnFocus: true}); } },
+                // Svg fragment
+                { src: RESOURCES_PATH + 'plugin/reveal-svg-fragment/reveal-svg-fragment.js'}
+			]
+		});
+
+        Reveal.addEventListener( 'slidechanged', function( event ) {
+            if(event.indexh !== 0) {
+                document.getElementsByClassName('devfest-logo')[0].style.display = 'flex';
+            } else {
+                document.getElementsByClassName('devfest-logo')[0].style.display = 'none';
+            }
+            if(event.currentSlide.dataset.backgroundColor && event.currentSlide.dataset.backgroundColor === '#fff') {
+                document.getElementsByClassName('devfest-logo')[0].style['-webkit-filter'] = 'invert(30%)';
+            } else {
+                document.getElementsByClassName('devfest-logo')[0].style['-webkit-filter'] = 'none';
+            }
+        });
+
+	</script>
+
+	</body>
+</html>

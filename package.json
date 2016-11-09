@@ -1,0 +1,77 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "scaffolder-revealjs-resources@git://github.com/groupe-sii/scaffolder-revealjs-resources.git",
+        "scope": null,
+        "escapedName": "scaffolder-revealjs-resources",
+        "name": "scaffolder-revealjs-resources",
+        "rawSpec": "git://github.com/groupe-sii/scaffolder-revealjs-resources.git",
+        "spec": "git://github.com/groupe-sii/scaffolder-revealjs-resources.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:groupe-sii/scaffolder-revealjs-resources.git",
+          "sshUrl": "git+ssh://git@github.com/groupe-sii/scaffolder-revealjs-resources.git",
+          "httpsUrl": "git+https://github.com/groupe-sii/scaffolder-revealjs-resources.git",
+          "gitUrl": "git://github.com/groupe-sii/scaffolder-revealjs-resources.git",
+          "shortcut": "github:groupe-sii/scaffolder-revealjs-resources",
+          "directUrl": "https://raw.githubusercontent.com/groupe-sii/scaffolder-revealjs-resources/master/package.json"
+        }
+      },
+      "/home/travis/build/vogloblinsky/devfest-2016-tree-shaking-slides"
+    ]
+  ],
+  "_from": "git://github.com/groupe-sii/scaffolder-revealjs-resources.git",
+  "_id": "scaffolder-revealjs-resources@1.0.0",
+  "_inCache": true,
+  "_location": "/scaffolder-revealjs-resources",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "scaffolder-revealjs-resources@git://github.com/groupe-sii/scaffolder-revealjs-resources.git",
+    "scope": null,
+    "escapedName": "scaffolder-revealjs-resources",
+    "name": "scaffolder-revealjs-resources",
+    "rawSpec": "git://github.com/groupe-sii/scaffolder-revealjs-resources.git",
+    "spec": "git://github.com/groupe-sii/scaffolder-revealjs-resources.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:groupe-sii/scaffolder-revealjs-resources.git",
+      "sshUrl": "git+ssh://git@github.com/groupe-sii/scaffolder-revealjs-resources.git",
+      "httpsUrl": "git+https://github.com/groupe-sii/scaffolder-revealjs-resources.git",
+      "gitUrl": "git://github.com/groupe-sii/scaffolder-revealjs-resources.git",
+      "shortcut": "github:groupe-sii/scaffolder-revealjs-resources",
+      "directUrl": "https://raw.githubusercontent.com/groupe-sii/scaffolder-revealjs-resources/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git://github.com/groupe-sii/scaffolder-revealjs-resources.git#556d50c26fd19da7813311cd06317da181df003e",
+  "_shasum": "b207971a549bf8434a8f7c669f856b468b913ef1",
+  "_shrinkwrap": null,
+  "_spec": "scaffolder-revealjs-resources@git://github.com/groupe-sii/scaffolder-revealjs-resources.git",
+  "_where": "/home/travis/build/vogloblinsky/devfest-2016-tree-shaking-slides",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/groupe-sii/scaffolder-revealjs-resources/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "gitHead": "556d50c26fd19da7813311cd06317da181df003e",
+  "homepage": "https://github.com/groupe-sii/scaffolder-revealjs-resources#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "scaffolder-revealjs-resources",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/groupe-sii/scaffolder-revealjs-resources.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}

@@ -1,0 +1,204 @@
+/**
+ * White theme for reveal.js. This is the opposite of the 'black' theme.
+ *
+ * By Hakim El Hattab, http://hakim.se
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+@import url(fonts.css);
+
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: #fff;
+
+$mainColor: #222;
+$headingColor: #222;
+
+$mainFontSize: 38px;
+$mainFont: 'Segoe', Helvetica, sans-serif;
+$headingFont: 'Segoe', Helvetica, sans-serif;
+$headingTextShadow: none;
+$headingLetterSpacing: normal;
+$headingTextTransform: uppercase;
+$headingFontWeight: 600;
+$linkColor: #2a76dd;
+$linkColorHover: lighten( $linkColor, 15% );
+$selectionBackgroundColor: lighten( $linkColor, 25% );
+
+$heading1Size: 2.5em;
+$heading2Size: 1.6em;
+$heading3Size: 1.3em;
+$heading4Size: 1.0em;
+
+$sii-blue: #005AA2;
+$sii-light-blue: #88B4DC;
+$sii-purple: #8D3589;
+$sii-green: #B2BD3A;
+$sii-gray: #80888C;
+$sii-orange: #D64B13;
+
+.print-pdf .reveal .slides{
+	section.noprint{
+		display:none !important;
+	}
+}
+
+section.has-dark-background {
+	&, h1, h2, h3, h4, h5, h6 {
+		color: $backgroundColor;
+	}
+}
+
+@mixin titre(){
+	text-align: left;
+	h1 {
+		text-align: center;
+	}
+	
+	li {
+		list-style-type: none;
+	}
+}
+
+@mixin partie($color){
+	text-align: center;
+
+	li {
+		list-style-type: disc;	
+	}
+
+	&, h1, h2, h3, h4, h5, h6 {
+		color: $color;
+	}
+}
+
+section.blue{
+	@include titre();
+
+	&+section.blue{
+		@include partie($sii-blue);
+	}
+}
+
+section.green{
+	@include titre();
+
+	&+section.green{
+		@include partie($sii-green);
+	}
+}
+
+section.purple{
+	@include titre();
+
+	&+section.purple{
+		@include partie($sii-purple);
+	}
+}
+
+section.gray{
+	@include titre();
+
+	&+section.gray{
+		@include partie($sii-gray);
+	}
+}
+
+section.orange{
+	@include titre();
+
+	&+section.orange{
+		@include partie($sii-orange);
+	}
+}
+
+.backgrounds .blue{
+	background-color: $sii-blue;
+
+	& + .blue{
+		background-color: $backgroundColor;
+	}
+}
+
+.backgrounds .green{
+	background-color: $sii-green;
+
+	& + .green{
+		background-color: $backgroundColor;
+	}
+}
+
+.backgrounds .purple{
+	background-color: $sii-purple;
+
+	& + .purple{
+		background-color: $backgroundColor;
+	}
+}
+
+.backgrounds .gray{
+	background-color: $sii-gray;
+
+	& + .gray{
+		background-color: $backgroundColor;
+	}
+}
+
+.backgrounds .orange{
+	background-color: $sii-orange;
+
+	& + .orange{
+		background-color: $backgroundColor;
+	}
+}
+
+
+.reveal.has-dark-background {
+	.progress span{
+		background: $backgroundColor;
+	}
+	.controls {
+		.navigate-left.enabled{
+			border-right-color: $backgroundColor;
+		}
+		.navigate-right.enabled{
+			border-left-color: $backgroundColor;	
+		}
+		.navigate-up.enabled{
+			border-bottom-color: $backgroundColor;
+		}
+		.navigate-down.enabled{
+			border-up-color: $backgroundColor;	
+		}
+	}
+}
+
+.reveal.has-light-background {
+	.progress span{
+		background: $sii-blue;
+	}
+}
+
+.logo-sii {
+	margin: 10px;
+	display: inline-block;
+	position: absolute;
+	z-index: 1;
+}
+.line {
+	display: block;
+}
+.line.blur {
+	filter: blur(2px);
+	-webkit-filter: blur(2px);
+}
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
